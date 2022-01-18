@@ -3,5 +3,62 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.absolute {
+    position: absolute;
+}
+
+.container-products {
+    width: 80%;
+    height: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    background-color: lightgreen;
+}
+
+.card-products {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    width: 640px;
+    height: 920px;
+    z-index: 2;
+}
+
+.card-products img {
+    width: 640px;
+    height: 920px;
+}
+
+.tag-padding {
+    padding: 3px 10px;
+}
+
+.heart-tag {
+    top: 20px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.8em;
+    line-height: 30px;
+    background-color: white;
+}
+
+.discount-tag {
+    bottom: 20px;
+    left: 0px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(255, 45, 45);
+}
+
+.sustainability-tag {
+    bottom: 20px;
+    left: 60px;
+    color: white;
+    background-color: rgb(15, 152, 93);
+}
