@@ -6,10 +6,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Classe per mettere tutte quello che voglio in absolute */
 .absolute {
     position: absolute;
 }
 
+/* Container prodotti */
 .container-products {
     width: 90%; 
     text-align: center;
@@ -17,11 +19,13 @@
     margin-top: 30px;
 }
 
+/* Fix margin secondo container */
 .margin-second-container {
     margin-top: 120px;
     margin-bottom: 150px;
 }
 
+/* Le varie card per i prodotti */
 .card-products {
     display: inline-block;
     margin-left: 20px;
@@ -32,6 +36,7 @@
     cursor: pointer;
 }
 
+/* Fix problema delle immagini che non si vedevano tutte */
 .bg-cover {
     background-size: cover;
 }
@@ -42,6 +47,7 @@
     background-image: url(../img/1.webp);
 }
 
+/* Quando andiamo su over ci switcha la immagine di bg */
 #first-product:hover {
     background-image: url(../img/1b.webp);
 }
@@ -89,10 +95,12 @@
 
 
 
+/* Padding dei vari tag */
 .tag-padding {
     padding: 3px 10px;
 }
 
+/* Tag cuore */
 .heart-tag {
     top: 20px;
     right: 0px;
@@ -103,6 +111,7 @@
     background-color: white;
 }
 
+/* Tag sconto */
 .discount-tag {
     bottom: 20px;
     left: 0px;
@@ -111,6 +120,7 @@
     background-color: rgb(255, 45, 45);
 }
 
+/* Tag sostenibilita' */
 .sustainability-tag {
     bottom: 20px;
     left: 60px;
@@ -118,10 +128,12 @@
     background-color: rgb(15, 152, 93);
 }
 
+/* Quando abbiamo nell'img solo la targhetta della sostenibilita' */
 .only-soste {
     left: 0px;
 }
 
+/* Per la descrizione dei prodotti */
 .item-description {
     text-align: left;
     top: 925px;
@@ -129,18 +141,22 @@
     line-height: 22px;
 }
 
+/* Usaro per togliere la ridondanza, usaro per i nomi brand */
 .opacity {
     opacity: 0.7;
 }
 
+/* Span per il nome articolo */
 .span-name {
     font-weight: bold;
 }
 
+/* Canbia il colore del prezzo attuale */
 .span-price-discounted {
     color: rgb(255, 45, 45);
 }
 
+/* Se scontato mette la linea sopra il preszzo */
 .span-price-retail {
     text-decoration: line-through;
 }
