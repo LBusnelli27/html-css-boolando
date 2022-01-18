@@ -19,6 +19,7 @@
 
 .margin-second-container {
     margin-top: 120px;
+    margin-bottom: 150px;
 }
 
 .card-products {
@@ -82,7 +83,7 @@
 }
 
 #sixth-product:hover {
-    background-image: url(../img/b.webp);
+    background-image: url(../img/6b.webp);
 }
 /* FINE BG IMAGE dei vari prodotti */
 
@@ -117,10 +118,15 @@
     background-color: rgb(15, 152, 93);
 }
 
+.only-soste {
+    left: 0px;
+}
+
 .item-description {
     text-align: left;
     top: 925px;
     font-size: 16px;
+    line-height: 22px;
 }
 
 .opacity {
