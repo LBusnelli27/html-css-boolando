@@ -17,6 +17,10 @@
     margin-top: 30px;
 }
 
+.margin-second-container {
+    margin-top: 120px;
+}
+
 .card-products {
     display: inline-block;
     margin-left: 20px;
@@ -24,13 +28,15 @@
     width: 640px;
     height: 920px;
     z-index: 2;
+    cursor: pointer;
 }
-
 
 .bg-cover {
     background-size: cover;
 }
 
+
+/* INIZIO BG IMAGE dei vari prodotti */
 #first-product {
     background-image: url(../img/1.webp);
 }
@@ -54,6 +60,31 @@
 #third-product:hover {
     background-image: url(../img/3b.webp);
 }
+
+#fourth-product {
+    background-image: url(../img/4.webp);
+}
+
+#fourth-product:hover {
+    background-image: url(../img/4b.webp);
+}
+
+#fifth-product {
+    background-image: url(../img/5.webp);
+}
+
+#fifth-product:hover {
+    background-image: url(../img/5b.webp);
+}
+
+#sixth-product {
+    background-image: url(../img/6.webp);
+}
+
+#sixth-product:hover {
+    background-image: url(../img/b.webp);
+}
+/* FINE BG IMAGE dei vari prodotti */
 
 
 
