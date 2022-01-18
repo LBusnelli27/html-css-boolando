@@ -11,13 +11,10 @@
 }
 
 .container-products {
-    width: 80%;
-    height: 1100px;
+    width: 90%; 
     text-align: center;
     margin: 0 auto;
     margin-top: 30px;
-
-    background-color: lightgreen;
 }
 
 .card-products {
@@ -29,10 +26,36 @@
     z-index: 2;
 }
 
-.card-products img {
-    width: 640px;
-    height: 920px;
+
+.bg-cover {
+    background-size: cover;
 }
+
+#first-product {
+    background-image: url(../img/1.webp);
+}
+
+#first-product:hover {
+    background-image: url(../img/1b.webp);
+}
+
+#second-product {
+    background-image: url(../img/2.webp);
+}
+
+#second-product:hover {
+    background-image: url(../img/2b.webp);
+}
+
+#third-product {
+    background-image: url(../img/3.webp);
+}
+
+#third-product:hover {
+    background-image: url(../img/3b.webp);
+}
+
+
 
 .tag-padding {
     padding: 3px 10px;
@@ -61,4 +84,26 @@
     left: 60px;
     color: white;
     background-color: rgb(15, 152, 93);
+}
+
+.item-description {
+    text-align: left;
+    top: 925px;
+    font-size: 16px;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+.span-name {
+    font-weight: bold;
+}
+
+.span-price-discounted {
+    color: rgb(255, 45, 45);
+}
+
+.span-price-retail {
+    text-decoration: line-through;
 }
