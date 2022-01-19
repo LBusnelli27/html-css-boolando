@@ -149,6 +149,7 @@
 /* Span per il nome articolo */
 .span-name {
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Canbia il colore del prezzo attuale */
